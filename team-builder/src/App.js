@@ -1,14 +1,14 @@
 import React, {useState} from 'react';
 import './App.css';
-//import Person from './components/Person';
-//import Form from './components/Form';
+import Person from './components/Person';
+import Form from './components/Form';
 function App() {
   //Team will contain an array of objects as its state
   //Each will be a member
   const[team, setTeam]= useState([{
-    name: 'John Doe',
+    name: 'Simon Chen',
     email: 'person@email.com',
-    role: "Gentleman"
+    role: "Noobie"
   }]);
 
   //Creating seter to add a new member
@@ -39,4 +39,3 @@ function App() {
 }
 
 export default App;
-© 2020 GitHub, Inc.
